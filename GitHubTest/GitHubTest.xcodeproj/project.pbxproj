@@ -15,6 +15,7 @@
 		6F3C83B61F2CAE1F00E8963D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F3C83B41F2CAE1F00E8963D /* LaunchScreen.storyboard */; };
 		6F3C83C11F2CAE1F00E8963D /* GitHubTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F3C83C01F2CAE1F00E8963D /* GitHubTestTests.m */; };
 		6F3C83CC1F2CAE1F00E8963D /* GitHubTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F3C83CB1F2CAE1F00E8963D /* GitHubTestUITests.m */; };
+		6FB5E8961F30711700B737C8 /* TextProject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB5E8951F30711700B737C8 /* TextProject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		6F3C83C71F2CAE1F00E8963D /* GitHubTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F3C83CB1F2CAE1F00E8963D /* GitHubTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitHubTestUITests.m; sourceTree = "<group>"; };
 		6F3C83CD1F2CAE1F00E8963D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FB5E8941F30711700B737C8 /* TextProject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextProject.h; sourceTree = "<group>"; };
+		6FB5E8951F30711700B737C8 /* TextProject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextProject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				6F3C83AA1F2CAE1F00E8963D /* AppDelegate.m */,
 				6F3C83AC1F2CAE1F00E8963D /* ViewController.h */,
 				6F3C83AD1F2CAE1F00E8963D /* ViewController.m */,
+				6FB5E8941F30711700B737C8 /* TextProject.h */,
+				6FB5E8951F30711700B737C8 /* TextProject.m */,
 				6F3C83AF1F2CAE1F00E8963D /* Main.storyboard */,
 				6F3C83B21F2CAE1F00E8963D /* Assets.xcassets */,
 				6F3C83B41F2CAE1F00E8963D /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FB5E8961F30711700B737C8 /* TextProject.m in Sources */,
 				6F3C83AE1F2CAE1F00E8963D /* ViewController.m in Sources */,
 				6F3C83AB1F2CAE1F00E8963D /* AppDelegate.m in Sources */,
 				6F3C83A81F2CAE1F00E8963D /* main.m in Sources */,
@@ -507,6 +513,7 @@
 				6F3C83D21F2CAE1F00E8963D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F3C83D31F2CAE1F00E8963D /* Build configuration list for PBXNativeTarget "GitHubTestTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +522,7 @@
 				6F3C83D51F2CAE1F00E8963D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F3C83D61F2CAE1F00E8963D /* Build configuration list for PBXNativeTarget "GitHubTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +531,7 @@
 				6F3C83D81F2CAE1F00E8963D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
